@@ -8,7 +8,7 @@ s.summary = "PocIos create pod."
 s.requires_arc = true
 
 # 2
-s.version = "0.0.10"
+s.version = "0.0.11"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -30,7 +30,7 @@ s.framework = "UIKit"
 s.source_files = "PocPod", "PocIos/**/*.{swift}"
 
 # 9
-#s.resources = "PocPod/*.{storyboard,xib}"
+s.resources = "Pocpod/**/*.{storyboard,xib}"
 
 # 10
 s.swift_version = "5.0"
