@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88288D4E28B0F41F0000EA82 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88288D4D28B0F41F0000EA82 /* Test.storyboard */; };
 		885E6B1128B0DE6D00E7B26E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885E6B1028B0DE6D00E7B26E /* AppDelegate.swift */; };
 		885E6B1528B0DE6D00E7B26E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885E6B1428B0DE6D00E7B26E /* TestViewController.swift */; };
 		885E6B1828B0DE6D00E7B26E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885E6B1628B0DE6D00E7B26E /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88288D4D28B0F41F0000EA82 /* Test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
 		885E6B0D28B0DE6D00E7B26E /* PocPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		885E6B1028B0DE6D00E7B26E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		885E6B1428B0DE6D00E7B26E /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				885E6B1028B0DE6D00E7B26E /* AppDelegate.swift */,
 				885E6B1428B0DE6D00E7B26E /* TestViewController.swift */,
+				88288D4D28B0F41F0000EA82 /* Test.storyboard */,
 				885E6B1628B0DE6D00E7B26E /* Main.storyboard */,
 				885E6B1928B0DE6E00E7B26E /* Assets.xcassets */,
 				885E6B1B28B0DE6E00E7B26E /* LaunchScreen.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				885E6B1D28B0DE6E00E7B26E /* LaunchScreen.storyboard in Resources */,
 				885E6B1A28B0DE6E00E7B26E /* Assets.xcassets in Resources */,
+				88288D4E28B0F41F0000EA82 /* Test.storyboard in Resources */,
 				885E6B1828B0DE6D00E7B26E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

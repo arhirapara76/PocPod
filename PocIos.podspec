@@ -2,13 +2,13 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '12.1'
+s.ios.deployment_target = '13.2'
 s.name = "PocIos"
 s.summary = "PocIos create pod."
 s.requires_arc = true
 
 # 2
-s.version = "0.0.5"
+s.version = "0.0.9"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -27,7 +27,6 @@ s.source = { :git => "https://github.com/arhirapara76/PocPod.git",
 s.framework = "UIKit"
 
 # 8
-#s.source_files = "PocIos/**/*.{h,m,swift}"
 s.source_files = "PocPod", "PocIos/**/*.{swift}"
 
 # 9
