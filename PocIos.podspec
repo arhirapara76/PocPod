@@ -8,7 +8,7 @@ s.summary = "PocIos create pod."
 s.requires_arc = true
 
 # 2
-s.version = "0.0.16"
+s.version = "0.0.17"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
