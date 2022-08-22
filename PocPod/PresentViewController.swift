@@ -7,21 +7,21 @@
 
 import UIKit
 
-public class PresentViewController: UIViewController {
+ class PresentViewController: UIViewController {
 
-    @IBOutlet public weak var viewMain: UIView!
+    @IBOutlet  weak var viewMain: UIView!
     
-    public override func viewDidLoad() {
+     override func viewDidLoad() {
         super.viewDidLoad()
         viewMain.roundCorners(corners: [.topLeft, .topRight], radius: 25)
     }
     
-    public override func viewDidAppear(_ animated: Bool) {
+     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
     }
     
-    @IBAction public func onBtnRemoveView(_ sender: Any) {
+    @IBAction func onBtnRemoveView(_ sender: Any) {
         dismiss(animated: true)
     }
 }
