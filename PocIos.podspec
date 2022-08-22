@@ -30,7 +30,7 @@ s.framework = "UIKit"
 s.source_files = "PocPod", "PocIos/**/*.{swift}"
 
 # 9
-#s.resources = "Pocpod/**/*.{storyboard,xib}"
+s.resources = "Pocpod/**/*.{storyboard,xib}"
 
 # 10
 s.swift_version = "5.0"
